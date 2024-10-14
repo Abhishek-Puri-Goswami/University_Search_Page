@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.list{
+    height: fit-content;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: left;
+}
+input{
+    margin: 5px;
+    padding: 8px;
+}
+button{
+    margin: 5px;
+    padding: 8px;
+    transition: 200ms;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.9);
+}
